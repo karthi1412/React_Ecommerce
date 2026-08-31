@@ -806,3 +806,72 @@
   transform: translateY(-5px);
   box-shadow: 0 8px 30px color-mix(in srgb, var(--default-color), transparent 88%);
 }
+
+.testimonials {
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+.testimonials .critic-reviews {
+  margin-bottom: 60px;
+}
+
+.testimonials .critic-reviews .critic-review {
+  background-color: var(--surface-color);
+  padding: 30px;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.testimonials .critic-reviews .critic-review {
+  background-color: var(--surface-color);
+  padding: 30px;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.testimonials .critic-reviews .critic-review .stars {
+  margin-bottom: 15px;
+  display: flex;
+}
+
+.testimonials .critic-reviews .critic-review .stars i {
+  color: #FFD700;
+  margin-right: 3px;
+  font-size: 18px;
+}
+
+.testimonials .critic-reviews .critic-review p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: var(--default-color-2);
+  font-style: italic;
+}
+
+.testimonials .critic-reviews .critic-review .critic-info .critic-name {
+  font-weight: 600;
+  color: var(--heading-color-2);
+  font-size: 16px;
+}
+
+.testimonials .critic-reviews .critic-review .review-quote {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  font-size: 80px;
+  font-family: Georgia, serif;
+  color: var(--accent-color);
+  opacity: 0.2;
+  line-height: 1;
+}
+
+.testimonials .critic-reviews .critic-review:hover {
+  transform: translateY(-10px);
+}

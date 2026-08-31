@@ -904,7 +904,73 @@ function Home() {
                 </div>
 
             </section>
-            
+            <section id="testimonials" class="testimonials section section-five">
+                {/* <!-- Section Title --> */}
+                <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+                    <h2>Testimonials</h2>
+                    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                </div>
+                {/* <!-- End Section Title --> */}
+
+                <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="critic-reviews aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="critic-review">
+                                            <div class="review-quote">"</div>
+                                            <div class="stars">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </div>
+                                            <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                                            <div class="critic-info">
+                                                <div class="critic-name">The New York Times</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="critic-review">
+                                            <div class="review-quote">"</div>
+                                            <div class="stars">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-half"></i>
+                                            </div>
+                                            <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat.</p>
+                                            <div class="critic-info">
+                                                <div class="critic-name">Washington Post</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="critic-review">
+                                            <div class="review-quote">"</div>
+                                            <div class="stars">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </div>
+                                            <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+                                            <div class="critic-info">
+                                                <div class="critic-name">The Guardian</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
 
     )

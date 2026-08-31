@@ -7,6 +7,10 @@ import educationfive from "../assets/images/educationfive.webp";
 import activitythree from "../assets/images/activitythree.webp";
 import teachersix from "../assets/images/teachersix.webp";
 import personf3 from "../assets/images/personf3.webp";
+import teacher2 from "../assets/images/teacher2.webp";
+import teacher7 from "../assets/images/teacher7.webp";
+import teacher4 from "../assets/images/teacher4.webp";
+import teacher9 from "../assets/images/teacher9.webp";
 
 
 function Home() {
@@ -574,7 +578,6 @@ function Home() {
 
 
             </section>
-
             <section id="course-categories" class="course-categories section section-three">
 
                 <div class="container section-title aos-init aos-animate" data-aos="fade-up">
@@ -710,6 +713,198 @@ function Home() {
                 </div>
 
             </section>
+            <section id="featured-instructors" class="featured-instructors section section-four">
+
+                <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+                    <h2>Featured Instructors</h2>
+                    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                </div>
+
+                <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="row gy-4">
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                            <div class="instructor-card">
+                                <div class="instructor-image">
+                                    <img src={teacher2} class="img-fluid" alt="" />
+                                    <div class="overlay-content">
+                                        <div class="rating-stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                            <span>4.8</span>
+                                        </div>
+                                        <div class="course-count">
+                                            <i class="bi bi-play-circle"></i>
+                                            <span>18 Courses</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instructor-info">
+                                    <h5>Sarah Johnson</h5>
+                                    <p class="specialty">Web Development</p>
+                                    <p class="description">Nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur gravida.</p>
+                                    <div class="stats-grid">
+                                        <div class="stat">
+                                            <span class="number">2.1k</span>
+                                            <span class="label">Students</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="number">4.8</span>
+                                            <span class="label">Rating</span>
+                                        </div>
+                                    </div>
+                                    <div class="action-buttons">
+                                        <a href="#" class="btn-view">View Profile</a>
+                                        <div class="social-links">
+                                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                                            <a href="#"><i class="bi bi-twitter"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="250">
+                            <div class="instructor-card">
+                                <div class="instructor-image">
+                                    <img src={teacher7} class="img-fluid" alt="" />
+                                    <div class="overlay-content">
+                                        <div class="rating-stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <span>4.9</span>
+                                        </div>
+                                        <div class="course-count">
+                                            <i class="bi bi-play-circle"></i>
+                                            <span>24 Courses</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instructor-info">
+                                    <h5>Michael Chen</h5>
+                                    <p class="specialty">Data Science</p>
+                                    <p class="description">Suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse sed nisi.</p>
+                                    <div class="stats-grid">
+                                        <div class="stat">
+                                            <span class="number">3.5k</span>
+                                            <span class="label">Students</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="number">4.9</span>
+                                            <span class="label">Rating</span>
+                                        </div>
+                                    </div>
+                                    <div class="action-buttons">
+                                        <a href="#" class="btn-view">View Profile</a>
+                                        <div class="social-links">
+                                            <a href="#"><i class="bi bi-github"></i></a>
+                                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                            <div class="instructor-card">
+                                <div class="instructor-image">
+                                    <img src={teacher4} class="img-fluid" alt="" />
+                                    <div class="overlay-content">
+                                        <div class="rating-stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                            <span>4.6</span>
+                                        </div>
+                                        <div class="course-count">
+                                            <i class="bi bi-play-circle"></i>
+                                            <span>15 Courses</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instructor-info">
+                                    <h5>Amanda Rodriguez</h5>
+                                    <p class="specialty">UX Design</p>
+                                    <p class="description">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis.</p>
+                                    <div class="stats-grid">
+                                        <div class="stat">
+                                            <span class="number">1.8k</span>
+                                            <span class="label">Students</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="number">4.6</span>
+                                            <span class="label">Rating</span>
+                                        </div>
+                                    </div>
+                                    <div class="action-buttons">
+                                        <a href="#" class="btn-view">View Profile</a>
+                                        <div class="social-links">
+                                            <a href="#"><i class="bi bi-dribbble"></i></a>
+                                            <a href="#"><i class="bi bi-behance"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="350">
+                            <div class="instructor-card">
+                                <div class="instructor-image">
+                                    <img src={teacher9} class="img-fluid" alt="" />
+                                    <div class="overlay-content">
+                                        <div class="rating-stars">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-half"></i>
+                                            <span>4.7</span>
+                                        </div>
+                                        <div class="course-count">
+                                            <i class="bi bi-play-circle"></i>
+                                            <span>21 Courses</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="instructor-info">
+                                    <h5>David Thompson</h5>
+                                    <p class="specialty">Digital Marketing</p>
+                                    <p class="description">Vivamus magna justo lacinia eget consectetur sed convallis at tellus curabitur non nulla.</p>
+                                    <div class="stats-grid">
+                                        <div class="stat">
+                                            <span class="number">2.9k</span>
+                                            <span class="label">Students</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="number">4.7</span>
+                                            <span class="label">Rating</span>
+                                        </div>
+                                    </div>
+                                    <div class="action-buttons">
+                                        <a href="#" class="btn-view">View Profile</a>
+                                        <div class="social-links">
+                                            <a href="#"><i class="bi bi-instagram"></i></a>
+                                            <a href="#"><i class="bi bi-facebook"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            
         </div>
 
     )

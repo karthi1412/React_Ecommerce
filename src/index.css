@@ -1,3 +1,129 @@
-:root {
-  
+.root {
+    --heading-font: "Raleway", sans-serif;
+}
+
+.blog-hero .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 24px;
+}
+
+
+.blog-hero .blog-item.featured {
+    grid-column: span 8;
+}
+
+.blog-hero .blog-item:not(.featured) {
+    grid-column: span 4;
+}
+
+.blog-hero .blog-item {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px color-mix(in srgb, var(--default-color), transparent 90%);
+    transition: transform 0.3s ease-in-out;
+    background-color: var(--surface-color);
+}
+
+.blog-hero .blog-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    aspect-ratio: 16 / 9;
+}
+
+.blog-hero .blog-item .blog-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    background: linear-gradient(0deg,
+            color-mix(in srgb, var(--default-color), transparent 20%) 0%, transparent 100%);
+    transition: background 0.3s ease-in-out;
+}
+
+.blog-hero .blog-item .post-meta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--contrast-color);
+}
+
+.blog-hero .blog-item .post-meta .date,
+.blog-hero .blog-item .post-meta .category {
+    display: flex;
+    align-items: center;
+}
+
+.blog-hero .blog-item .post-meta .date::before {
+    content: "\f282";
+}
+
+.blog-hero .blog-item .post-meta .date::before,
+.blog-hero .blog-item .post-meta .category::before {
+    font-family: "bootstrap-icons";
+    margin-right: 0.5rem;
+    font-size: 1rem;
+}
+
+.blog-hero .blog-item.featured .post-title {
+    font-size: 2rem;
+}
+
+.blog-hero .blog-item .post-title {
+    margin: 0;
+    font-family: var(--heading-font);
+}
+
+.blog-hero .blog-item .post-title a {
+    color: var(--contrast-color);
+    text-decoration: none;
+}
+
+.blog-posts {
+    padding-top: 60px;
+    padding-bottom: 62px;
+}
+.blog-posts article {
+    background-color: var(--surface-color);
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.blog-posts .post-img img {
+    transition: 0.5s;
+}
+.blog-posts .meta {
+    position: relative;
+    margin-top: -20px;
+    padding: 0 30px;
+}
+.blog-posts .meta .post-date {
+    background-color: var(--accent-color);
+    color: var(--contrast-color);
+    font-size: 13px;
+    padding: 6px 12px;
+    text-align: center;
+    margin-right: 15px;
+    border-radius: 4px;
+}
+.blog-posts .meta .post-date span {
+    display: block;
+    color: var(--contrast-color);
+    font-weight: 700;
+    font-size: 20px;
+}
+.blog-posts .meta i {
+    font-size: 16px;
+    color: var(--accent-color);
+}
+.blog-posts .meta span {
+    font-size: 15px;
+    color: 
+ color-mix(in srgb, var(--default-color-2), transparent 40%);
 }

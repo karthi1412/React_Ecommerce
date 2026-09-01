@@ -124,7 +124,7 @@ function Pricing() {
                         {/* <!-- Business Plan --> */}
                         <div class="col-lg-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
                             <div class="pricing-item popular">
-                                {/* <div class="popular-badge">Most Popular</div> */}
+                                <div class="popular-badge text-end">Most Popular</div>
                                 <div class="pricing-header">
                                     <h6 class="pricing-category">Business</h6>
                                     <div class="price-wrap">

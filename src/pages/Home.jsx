@@ -971,6 +971,67 @@ function Home() {
                     </div>
                 </div>
             </section>
+            <section id="recent-blog-posts" class="recent-blog-posts section">
+                <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+                    <h2>Recent Blog Posts</h2>
+                    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                </div>
+
+                <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                    <div class="row gy-4">
+                        <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                            <div class="card">
+                                <div class="card-top d-flex align-items-center">
+                                    <img src={personf3} alt="Author" class="rounded-circle me-2" />
+                                    <span class="author-name">By Andy glamer</span>
+                                    <span class="ms-auto likes"><i class="bi bi-heart"></i> 65</span>
+                                </div>
+                                <div class="card-img-wrapper">
+                                    <img src={studentsseven} alt="Post Image" />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="blog-details.html">Sed ut perspiciatis unde omnis iste natus</a></h5>
+                                    <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                            <div class="card position-relative">
+                                <div class="card-top d-flex align-items-center">
+                                    <img src={personf3} alt="Author" class="rounded-circle me-2" />
+                                    <span class="author-name">By Den viliamson</span>
+                                    <span class="ms-auto likes"><i class="bi bi-heart"></i> 35</span>
+                                </div>
+                                <div class="card-img-wrapper">
+                                    <img src={studentsnine} alt="Post Image" />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="blog-details.html">Nemo enim ipsam voluptatem quia voluptas sit</a></h5>
+                                    <p class="card-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                            <div class="card">
+                                <div class="card-top d-flex align-items-center">
+                                    <img src={personf3} alt="Author" class="rounded-circle me-2" />
+                                    <span class="author-name">By Jones robbert</span>
+                                    <span class="ms-auto likes"><i class="bi bi-heart"></i> 58</span>
+                                </div>
+                                <div class="card-img-wrapper">
+                                    <img src={activitythree} alt="Post Image" />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="blog-details.html">Ut enim ad minima veniam, quis nostrum exercitationem</a></h5>
+                                    <p class="card-text">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
         </div>
 
     )

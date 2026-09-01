@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
     return (
         <>
-            <div className='navbar-section header'>
+            <div className='navbar-section header sticky-top'>
                 <div className='containe-fluid'>
                     <div className='row m-0'>
                         <div className='col'>
@@ -22,13 +22,13 @@ function Navbar() {
                                                 <a className="nav-link" href="/about">About</a>
                                             </li>
                                             <li className="nav-item">
-                                                <a className="nav-link" href="">Courses</a>
+                                                <a className="nav-link" href="/courses">Courses</a>
                                             </li>
                                             <li className="nav-item">
-                                                <a className="nav-link" href="">Instructors</a>
+                                                <a className="nav-link" href="/instructors">Instructors</a>
                                             </li>
                                             <li className="nav-item">
-                                                <a className="nav-link" href="">Pricing</a>
+                                                <a className="nav-link" href="/pricing">Pricing</a>
                                             </li>
                                             <li className="nav-item">
                                                 <a className="nav-link" href="">Blog</a>

@@ -75,7 +75,7 @@ function About() {
                                     <li><i class="bi bi-check-circle-fill"></i> Career guidance and placement support</li>
                                     <li><i class="bi bi-check-circle-fill"></i> State-of-the-art online learning platform</li>
                                 </ul>
-                                <a href="#" class="btn-explore">Discover More <i class="bi bi-arrow-right"></i></a>
+                                <a href="/courses" class="btn-explore">Discover More <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                         <div class="col-lg-6 order-lg-1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">

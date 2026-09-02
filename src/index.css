@@ -88,6 +88,7 @@
     padding-top: 60px;
     padding-bottom: 62px;
 }
+
 .blog-posts article {
     background-color: var(--surface-color);
     box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
@@ -95,14 +96,17 @@
     border-radius: 8px;
     overflow: hidden;
 }
+
 .blog-posts .post-img img {
     transition: 0.5s;
 }
+
 .blog-posts .meta {
     position: relative;
     margin-top: -20px;
     padding: 0 30px;
 }
+
 .blog-posts .meta .post-date {
     background-color: var(--accent-color);
     color: var(--contrast-color);
@@ -112,18 +116,155 @@
     margin-right: 15px;
     border-radius: 4px;
 }
+
 .blog-posts .meta .post-date span {
     display: block;
     color: var(--contrast-color);
     font-weight: 700;
     font-size: 20px;
 }
+
 .blog-posts .meta i {
     font-size: 16px;
     color: var(--accent-color);
 }
+
 .blog-posts .meta span {
     font-size: 15px;
-    color: 
- color-mix(in srgb, var(--default-color-2), transparent 40%);
+    color:
+        color-mix(in srgb, var(--default-color-2), transparent 40%);
+}
+
+.courses-events .event-card {
+    background: var(--surface-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.courses-events .event-card .event-image {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+}
+
+.courses-events .event-card .event-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.courses-events .event-card .event-image .date-badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: var(--accent-color);
+    color: var(--contrast-color);
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px;
+    min-width: 50px;
+    font-weight: 600;
+}
+
+.courses-events .event-card .event-image .date-badge .day {
+    display: block;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.courses-events .event-card .event-image .date-badge .month {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.courses-events .event-card .event-content {
+    padding: 25px;
+}
+
+.courses-events .event-card .event-content .event-meta {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color:
+        color-mix(in srgb, var(--default-color-2), transparent 30%);
+}
+
+.courses-events .event-card .event-content .event-meta span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.courses-events .event-card .event-content .event-meta span i {
+    color: var(--accent-color);
+}
+
+.courses-events .event-card .event-content .event-meta span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.courses-events .event-card .event-content .event-title {
+    margin-bottom: 15px;
+    font-size: 22px;
+    line-height: 1.3;
+}
+
+.courses-events .event-card .event-content .event-title a {
+    color: var(--heading-color-2);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.courses-events .event-card .event-content .event-description {
+    color:
+        color-mix(in srgb, var(--default-color-2), transparent 20%);
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.courses-events .event-card .event-content .event-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid color-mix(in srgb, var(--default-color-2), transparent 90%);
+}
+
+.courses-events .event-card .event-content .event-footer .instructor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.courses-events .event-card .event-content .event-footer .instructor .instructor-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.courses-events .event-card .event-content .event-footer .event-price .price {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--accent-color);
+}
+
+.courses-events .event-card .event-content .event-actions {
+    display: flex;
+    gap: 15px;
+}
+
+.courses-events .event-card .event-content .event-actions .btn.btn-outline {
+    background: transparent;
+    color: var(--accent-color);
+    border-color: var(--accent-color);
 }

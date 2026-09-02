@@ -10,6 +10,8 @@ import Courses from './pages/Courses'
 import Instructors from './pages/Instructors'
 import Pricing from './pages/Pricing'
 import Blog from './pages/Blog'
+import Error from './pages/Error'
+import Events from './pages/Events'
 
 function App() {
 
@@ -23,6 +25,8 @@ function App() {
         <Route path="/instructors" element={<Instructors />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="*" element={<Error />} />
       </Routes>
       <Footer/>
     </>

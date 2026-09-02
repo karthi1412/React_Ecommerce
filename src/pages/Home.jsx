@@ -48,8 +48,8 @@ function Home() {
                                                         </div>
 
                                                         <div class="hero-buttons">
-                                                            <a href="#courses" class="btn btn-primary">Browse Courses</a>
-                                                            <a href="#about" class="btn btn-outline">Learn More</a>
+                                                            <a href="/courses" class="btn btn-primary">Browse Courses</a>
+                                                            <a href="/about" class="btn btn-outline">Learn More</a>
                                                         </div>
 
                                                         <div class="hero-features">
@@ -143,8 +143,8 @@ function Home() {
                                                         </div>
 
                                                         <div class="hero-buttons">
-                                                            <a href="#courses" class="btn btn-primary">Browse Courses</a>
-                                                            <a href="#about" class="btn btn-outline">Learn More</a>
+                                                            <a href="/courses" class="btn btn-primary">Browse Courses</a>
+                                                            <a href="/about" class="btn btn-outline">Learn More</a>
                                                         </div>
 
                                                         <div class="hero-features">
@@ -238,8 +238,8 @@ function Home() {
                                                         </div>
 
                                                         <div class="hero-buttons">
-                                                            <a href="#courses" class="btn btn-primary">Browse Courses</a>
-                                                            <a href="#about" class="btn btn-outline">Learn More</a>
+                                                            <a href="/courses" class="btn btn-primary">Browse Courses</a>
+                                                            <a href="/about" class="btn btn-outline">Learn More</a>
                                                         </div>
 
                                                         <div class="hero-features">
@@ -306,11 +306,11 @@ function Home() {
                             </section>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="/carouselExampleAutoplaying" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="/carouselExampleAutoplaying" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -339,7 +339,7 @@ function Home() {
                                         <span class="level">Beginner</span>
                                         <span class="duration">8 Weeks</span>
                                     </div>
-                                    <h3><a href="#">Digital Marketing Fundamentals</a></h3>
+                                    <h3><a href="/">Digital Marketing Fundamentals</a></h3>
                                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.</p>
                                     <div class="instructor">
                                         <img src={personf3} alt="Instructor" class="instructor-img" />
@@ -362,7 +362,7 @@ function Home() {
                                             <span>342 students</span>
                                         </div>
                                     </div>
-                                    <a href="enroll.html" class="btn-course">Enroll Now</a>
+                                    <a href="/" class="btn-course">Enroll Now</a>
                                 </div>
                             </div>
                         </div>
@@ -379,7 +379,7 @@ function Home() {
                                         <span class="level">Intermediate</span>
                                         <span class="duration">6 Weeks</span>
                                     </div>
-                                    <h3><a href="#">Web Development with JavaScript</a></h3>
+                                    <h3><a href="/">Web Development with JavaScript</a></h3>
                                     <p>Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit.</p>
                                     <div class="instructor">
                                         <img src={personf3} alt="Instructor" class="instructor-img" />
@@ -402,7 +402,7 @@ function Home() {
                                             <span>156 students</span>
                                         </div>
                                     </div>
-                                    <a href="enroll.html" class="btn-course">Enroll Now</a>
+                                    <a href="/" class="btn-course">Enroll Now</a>
                                 </div>
                             </div>
                         </div>
@@ -419,7 +419,7 @@ function Home() {
                                         <span class="level">Beginner</span>
                                         <span class="duration">4 Weeks</span>
                                     </div>
-                                    <h3><a href="#">Introduction to Data Science</a></h3>
+                                    <h3><a href="/">Introduction to Data Science</a></h3>
                                     <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum sed ut perspiciatis unde omnis.</p>
                                     <div class="instructor">
                                         <img src={personf3} alt="Instructor" class="instructor-img" />
@@ -442,7 +442,7 @@ function Home() {
                                             <span>789 students</span>
                                         </div>
                                     </div>
-                                    <a href="enroll.html" class="btn-course">Enroll Now</a>
+                                    <a href="/" class="btn-course">Enroll Now</a>
                                 </div>
                             </div>
                         </div>
@@ -459,7 +459,7 @@ function Home() {
                                         <span class="level">Advanced</span>
                                         <span class="duration">12 Weeks</span>
                                     </div>
-                                    <h3><a href="#">Business Strategy &amp; Leadership</a></h3>
+                                    <h3><a href="/">Business Strategy &amp; Leadership</a></h3>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo.</p>
                                     <div class="instructor">
                                         <img src={personf3} alt="Instructor" class="instructor-img" />
@@ -482,7 +482,7 @@ function Home() {
                                             <span>234 students</span>
                                         </div>
                                     </div>
-                                    <a href="enroll.html" class="btn-course">Enroll Now</a>
+                                    <a href="/" class="btn-course">Enroll Now</a>
                                 </div>
                             </div>
                         </div>
@@ -499,7 +499,7 @@ function Home() {
                                         <span class="level">Intermediate</span>
                                         <span class="duration">10 Weeks</span>
                                     </div>
-                                    <h3><a href="#">Graphic Design Masterclass</a></h3>
+                                    <h3><a href="/">Graphic Design Masterclass</a></h3>
                                     <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem.</p>
                                     <div class="instructor">
                                         <img src={personf3} alt="Instructor" class="instructor-img" />
@@ -522,7 +522,7 @@ function Home() {
                                             <span>467 students</span>
                                         </div>
                                     </div>
-                                    <a href="enroll.html" class="btn-course">Enroll Now</a>
+                                    <a href="/" class="btn-course">Enroll Now</a>
                                 </div>
                             </div>
                         </div>
@@ -539,7 +539,7 @@ function Home() {
                                         <span class="level">Beginner</span>
                                         <span class="duration">5 Weeks</span>
                                     </div>
-                                    <h3><a href="#">Photography for Beginners</a></h3>
+                                    <h3><a href="/">Photography for Beginners</a></h3>
                                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas.</p>
                                     <div class="instructor">
                                         <img src={personf3} alt="Instructor" class="instructor-img" />
@@ -562,7 +562,7 @@ function Home() {
                                             <span>298 students</span>
                                         </div>
                                     </div>
-                                    <a href="enroll.html" class="btn-course">Enroll Now</a>
+                                    <a href="/" class="btn-course">Enroll Now</a>
                                 </div>
                             </div>
                         </div>
@@ -570,7 +570,7 @@ function Home() {
                     </div>
 
                     <div class="more-courses text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
-                        <a href="courses.html" class="btn-more">View All Courses</a>
+                        <a href="/courses" class="btn-more">View All Courses</a>
                     </div>
 
                 </div>
@@ -589,7 +589,7 @@ function Home() {
 
                     <div class="row g-4">
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="courses.html" class="category-card category-tech">
+                            <a href="/courses" class="category-card category-tech">
                                 <div class="category-icon">
                                     <i class="bi bi-laptop"></i>
                                 </div>
@@ -599,7 +599,7 @@ function Home() {
                         </div>
 
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="150">
-                            <a href="courses.html" class="category-card category-business">
+                            <a href="/courses" class="category-card category-business">
                                 <div class="category-icon">
                                     <i class="bi bi-briefcase"></i>
                                 </div>
@@ -609,7 +609,7 @@ function Home() {
                         </div>
 
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
-                            <a href="courses.html" class="category-card category-design">
+                            <a href="/courses" class="category-card category-design">
                                 <div class="category-icon">
                                     <i class="bi bi-palette"></i>
                                 </div>
@@ -619,7 +619,7 @@ function Home() {
                         </div>
 
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="250">
-                            <a href="courses.html" class="category-card category-health">
+                            <a href="/courses" class="category-card category-health">
                                 <div class="category-icon">
                                     <i class="bi bi-heart-pulse"></i>
                                 </div>
@@ -629,7 +629,7 @@ function Home() {
                         </div>
 
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
-                            <a href="courses.html" class="category-card category-language">
+                            <a href="/courses" class="category-card category-language">
                                 <div class="category-icon">
                                     <i class="bi bi-globe"></i>
                                 </div>
@@ -639,7 +639,7 @@ function Home() {
                         </div>
 
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="courses.html" class="category-card category-science">
+                            <a href="/courses" class="category-card category-science">
                                 <div class="category-icon">
                                     <i class="bi bi-diagram-3"></i>
                                 </div>
@@ -649,7 +649,7 @@ function Home() {
                         </div>
 
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
-                            <a href="courses.html" class="category-card category-marketing">
+                            <a href="/courses" class="category-card category-marketing">
                                 <div class="category-icon">
                                     <i class="bi bi-megaphone"></i>
                                 </div>
@@ -659,7 +659,7 @@ function Home() {
                         </div>
 
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="150">
-                            <a href="courses.html" class="category-card category-finance">
+                            <a href="/courses" class="category-card category-finance">
                                 <div class="category-icon">
                                     <i class="bi bi-graph-up-arrow"></i>
                                 </div>
@@ -669,7 +669,7 @@ function Home() {
                         </div>
 
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
-                            <a href="courses.html" class="category-card category-photography">
+                            <a href="/courses" class="category-card category-photography">
                                 <div class="category-icon">
                                     <i class="bi bi-camera"></i>
                                 </div>
@@ -679,7 +679,7 @@ function Home() {
                         </div>
 
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="250">
-                            <a href="courses.html" class="category-card category-music">
+                            <a href="/courses" class="category-card category-music">
                                 <div class="category-icon">
                                     <i class="bi bi-music-note-beamed"></i>
                                 </div>
@@ -689,7 +689,7 @@ function Home() {
                         </div>
 
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
-                            <a href="courses.html" class="category-card category-engineering">
+                            <a href="/courses" class="category-card category-engineering">
                                 <div class="category-icon">
                                     <i class="bi bi-gear"></i>
                                 </div>
@@ -699,7 +699,7 @@ function Home() {
                         </div>
 
                         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="350">
-                            <a href="courses.html" class="category-card category-law">
+                            <a href="/courses" class="category-card category-law">
                                 <div class="category-icon">
                                     <i class="bi bi-journal-text"></i>
                                 </div>
@@ -758,10 +758,10 @@ function Home() {
                                         </div>
                                     </div>
                                     <div class="action-buttons">
-                                        <a href="#" class="btn-view">View Profile</a>
+                                        <a href="/" class="btn-view">View Profile</a>
                                         <div class="social-links">
-                                            <a href="#"><i class="bi bi-linkedin"></i></a>
-                                            <a href="#"><i class="bi bi-twitter"></i></a>
+                                            <a href="/"><i class="bi bi-linkedin"></i></a>
+                                            <a href="/"><i class="bi bi-twitter"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -802,10 +802,10 @@ function Home() {
                                         </div>
                                     </div>
                                     <div class="action-buttons">
-                                        <a href="#" class="btn-view">View Profile</a>
+                                        <a href="/" class="btn-view">View Profile</a>
                                         <div class="social-links">
-                                            <a href="#"><i class="bi bi-github"></i></a>
-                                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                                            <a href="/"><i class="bi bi-github"></i></a>
+                                            <a href="/"><i class="bi bi-linkedin"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -846,10 +846,10 @@ function Home() {
                                         </div>
                                     </div>
                                     <div class="action-buttons">
-                                        <a href="#" class="btn-view">View Profile</a>
+                                        <a href="/" class="btn-view">View Profile</a>
                                         <div class="social-links">
-                                            <a href="#"><i class="bi bi-dribbble"></i></a>
-                                            <a href="#"><i class="bi bi-behance"></i></a>
+                                            <a href="/"><i class="bi bi-dribbble"></i></a>
+                                            <a href="/"><i class="bi bi-behance"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -890,10 +890,10 @@ function Home() {
                                         </div>
                                     </div>
                                     <div class="action-buttons">
-                                        <a href="#" class="btn-view">View Profile</a>
+                                        <a href="/" class="btn-view">View Profile</a>
                                         <div class="social-links">
-                                            <a href="#"><i class="bi bi-instagram"></i></a>
-                                            <a href="#"><i class="bi bi-facebook"></i></a>
+                                            <a href="/"><i class="bi bi-instagram"></i></a>
+                                            <a href="/"><i class="bi bi-facebook"></i></a>
                                         </div>
                                     </div>
                                 </div>

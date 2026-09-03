@@ -40,7 +40,7 @@ function Navbar() {
                                                 <a className="nav-link" href="/contact">Contact Us</a>
                                             </li>
 
-                                            <a className="btn-getstarted" href="">Enroll Now</a>
+                                            <a className="btn-getstarted" href="/enroll">Enroll Now</a>
 
 
                                         </ul>

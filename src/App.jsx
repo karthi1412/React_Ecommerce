@@ -13,6 +13,7 @@ import Blog from './pages/Blog'
 import Error from './pages/Error'
 import Events from './pages/Events'
 import Contact from './pages/Contact'
+import Enroll from './pages/Enroll'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/events" element={<Events />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/enroll" element={<Enroll />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer/>

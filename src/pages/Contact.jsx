@@ -56,7 +56,13 @@ function Contact() {
         if (validateForm()) {
             console.log("Form Submitted:", formData);
 
+            localStorage.setItem("contactForm", JSON.stringify(formData));
+
             alert("Your message has been sent!");
+
+            const data = JSON.parse(localStorage.getItem("contactForm"));
+
+            console.log(data);
 
             // Clear form
             setFormData({

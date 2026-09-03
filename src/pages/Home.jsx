@@ -362,7 +362,7 @@ function Home() {
                                             <span>342 students</span>
                                         </div>
                                     </div>
-                                    <a href="/" class="btn-course">Enroll Now</a>
+                                    <a href="/" class="btn-course" data-bs-toggle="modal" data-bs-target="#exampleModal">Enroll Now</a>
                                 </div>
                             </div>
                         </div>
@@ -402,7 +402,7 @@ function Home() {
                                             <span>156 students</span>
                                         </div>
                                     </div>
-                                    <a href="/" class="btn-course">Enroll Now</a>
+                                    <a href="/" class="btn-course" data-bs-toggle="modal" data-bs-target="#exampleModal">Enroll Now</a>
                                 </div>
                             </div>
                         </div>
@@ -442,7 +442,7 @@ function Home() {
                                             <span>789 students</span>
                                         </div>
                                     </div>
-                                    <a href="/" class="btn-course">Enroll Now</a>
+                                    <a href="/" class="btn-course" data-bs-toggle="modal" data-bs-target="#exampleModal">Enroll Now</a>
                                 </div>
                             </div>
                         </div>
@@ -482,7 +482,7 @@ function Home() {
                                             <span>234 students</span>
                                         </div>
                                     </div>
-                                    <a href="/" class="btn-course">Enroll Now</a>
+                                    <a href="/" class="btn-course" data-bs-toggle="modal" data-bs-target="#exampleModal">Enroll Now</a>
                                 </div>
                             </div>
                         </div>
@@ -522,7 +522,7 @@ function Home() {
                                             <span>467 students</span>
                                         </div>
                                     </div>
-                                    <a href="/" class="btn-course">Enroll Now</a>
+                                    <a href="/" class="btn-course" data-bs-toggle="modal" data-bs-target="#exampleModal">Enroll Now</a>
                                 </div>
                             </div>
                         </div>
@@ -562,7 +562,7 @@ function Home() {
                                             <span>298 students</span>
                                         </div>
                                     </div>
-                                    <a href="/" class="btn-course">Enroll Now</a>
+                                    <a href="/" class="btn-course" data-bs-toggle="modal" data-bs-target="#exampleModal">Enroll Now</a>
                                 </div>
                             </div>
                         </div>
@@ -1032,6 +1032,132 @@ function Home() {
                 </div>
 
             </section>
+
+            {/* <!-- Modal --> */}
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <section id="enroll" class="enroll section p-0">
+                                <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="row">
+                                        <div className='d-flex justify-content-end'>
+                                            <div>
+                                                <button type="button" class="btn-close text-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="enrollment-form-wrapper">
+
+                                                <div class="enrollment-header text-center mb-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                                                    <h2>Enroll in Your Dream Course</h2>
+                                                    <p>Take the next step in your educational journey. Complete the form below to secure your spot in our comprehensive online learning program.</p>
+                                                </div>
+
+                                                <form class="enrollment-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+
+                                                    <div class="row mb-4">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="firstName" class="form-label">First Name *</label>
+                                                                <input type="text" id="firstName" name="firstName" class="form-control" required="" autocomplete="given-name" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="email" class="form-label">Email Address *</label>
+                                                                <input type="email" id="email" name="email" class="form-control" required="" autocomplete="email" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row mb-4">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="phone" class="form-label">Phone Number</label>
+                                                                <input type="tel" id="phone" name="phone" class="form-control" autocomplete="tel" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="course" class="form-label">Select Course *</label>
+                                                                <select id="course" name="course" class="form-select" required="">
+                                                                    <option value="">Choose a course...</option>
+                                                                    <option value="web-development">Full Stack Web Development</option>
+                                                                    <option value="data-science">Data Science &amp; Analytics</option>
+                                                                    <option value="digital-marketing">Digital Marketing Mastery</option>
+                                                                    <option value="ui-ux-design">UI/UX Design Fundamentals</option>
+                                                                    <option value="cybersecurity">Cybersecurity Essentials</option>
+                                                                    <option value="mobile-development">Mobile App Development</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="row mb-4">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="education" class="form-label">Education Level</label>
+                                                                <select id="education" name="education" class="form-select">
+                                                                    <option value="">Select your education level...</option>
+                                                                    <option value="high-school">High School</option>
+                                                                    <option value="associate">Associate Degree</option>
+                                                                    <option value="bachelor">Bachelor's Degree</option>
+                                                                    <option value="master">Master's Degree</option>
+                                                                    <option value="doctorate">Doctorate</option>
+                                                                    <option value="other">Other</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="experience" class="form-label">Experience Level</label>
+                                                                <select id="experience" name="experience" class="form-select">
+                                                                    <option value="">Select your experience...</option>
+                                                                    <option value="beginner">Beginner</option>
+                                                                    <option value="intermediate">Intermediate</option>
+                                                                    <option value="advanced">Advanced</option>
+                                                                    <option value="expert">Expert</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="row mb-4">
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label for="motivation" class="form-label">What motivates you to take this course?</label>
+                                                                <textarea id="motivation" name="motivation" class="form-control" rows="4" placeholder="Share your goals and what you hope to achieve..."></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="row">
+                                                        <div class="col-12 text-center">
+                                                            <button type="submit" class="btn btn-enroll">
+                                                                <i class="bi bi-check-circle me-2"></i>
+                                                                Enroll Now
+                                                            </button>
+                                                            <p class="enrollment-note mt-3">
+                                                                <i class="bi bi-shield-check"></i>
+                                                                Your information is secure and will never be shared with third parties
+                                                            </p>
+                                                        </div>
+                                                    </div>
+
+                                                </form>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     )

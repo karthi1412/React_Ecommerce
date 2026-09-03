@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import bannerone from "../assets/images/bannerone.webp";
 import studentsnine from "../assets/images/studentsnine.webp";
 import campusfour from "../assets/images/campusfour.webp";
@@ -14,6 +14,23 @@ import teacher9 from "../assets/images/teacher9.webp";
 
 
 function Home() {
+
+    const [showModal, setShowModal] = useState(false);
+
+    useEffect(() => {
+        const offerShown = localStorage.getItem("offerShown");
+
+        if (!offerShown) {
+            const timer = setTimeout(() => {
+                setShowModal(true);
+                localStorage.setItem("offerShown", "true");
+            }, 1000);
+
+            return () => clearTimeout(timer);
+        }
+    }, []);
+
+
     return (
 
         <div >
@@ -1158,6 +1175,22 @@ function Home() {
                     </div>
                 </div>
             </div>
+
+            {/* popup */}
+            {showModal && (
+                <div className="offer-modal">
+                    <div className="modal-content">
+                        <h3>🎉 Special Offer!</h3>
+                        <p>Welcome! You have an offer.</p>
+
+                        <button>Enroll Now</button>
+
+                        <button onClick={() => setShowModal(false)}>
+                            Close
+                        </button>
+                    </div>
+                </div>
+            )}
         </div>
 
     )

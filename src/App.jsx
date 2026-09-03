@@ -12,6 +12,7 @@ import Pricing from './pages/Pricing'
 import Blog from './pages/Blog'
 import Error from './pages/Error'
 import Events from './pages/Events'
+import Contact from './pages/Contact'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer/>

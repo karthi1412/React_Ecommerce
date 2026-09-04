@@ -3,28 +3,28 @@ import React from 'react'
 function About() {
     return (
         <div>
-            <section id="about" class="about section">
-                <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                    <div class="row align-items-center">
-                        <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-                            <img src="https://bootstrapmade.com/content/demo/Learner/assets/img/education/education-square-2.webp" alt="About Us" class="img-fluid rounded-4" />
+            <section id="about" className="about section">
+                <div className="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                    <div className="row align-items-center">
+                        <div className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                            <img src="https://bootstrapmade.com/content/demo/Learner/assets/img/education/education-square-2.webp" alt="About Us" className="img-fluid rounded-4" />
                         </div>
-                        <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-                            <div class="about-content">
-                                <span class="subtitle">About Us</span>
+                        <div className="col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                            <div className="about-content">
+                                <span className="subtitle">About Us</span>
                                 <h2>Empowering Future Leaders Through Quality Education</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <div class="stats-row">
-                                    <div class="stats-item">
-                                        <span class="count">15</span>
+                                <div className="stats-row">
+                                    <div className="stats-item">
+                                        <span className="count">15</span>
                                         <p>Years of Experience</p>
                                     </div>
-                                    <div class="stats-item">
-                                        <span class="count">200+</span>
+                                    <div className="stats-item">
+                                        <span className="count">200+</span>
                                         <p>Expert Instructors</p>
                                     </div>
-                                    <div class="stats-item">
-                                        <span class="count">50k+</span>
+                                    <div className="stats-item">
+                                        <span className="count">50k+</span>
                                         <p>Students Worldwide</p>
                                     </div>
                                 </div>
@@ -32,29 +32,29 @@ function About() {
                         </div>
                     </div>
 
-                    <div class="row mt-5 pt-4">
-                        <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-                            <div class="mission-card">
-                                <div class="icon-box">
-                                    <i class="bi bi-bullseye"></i>
+                    <div className="row mt-5 pt-4">
+                        <div className="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                            <div className="mission-card">
+                                <div className="icon-box">
+                                    <i className="bi bi-bullseye"></i>
                                 </div>
                                 <h3>Our Mission</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Excepteur sint occaecat cupidatat non proident.</p>
                             </div>
                         </div>
-                        <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-                            <div class="mission-card">
-                                <div class="icon-box">
-                                    <i class="bi bi-eye"></i>
+                        <div className="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                            <div className="mission-card">
+                                <div className="icon-box">
+                                    <i className="bi bi-eye"></i>
                                 </div>
                                 <h3>Our Vision</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Excepteur sint occaecat cupidatat non proident.</p>
                             </div>
                         </div>
-                        <div class="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
-                            <div class="mission-card">
-                                <div class="icon-box">
-                                    <i class="bi bi-award"></i>
+                        <div className="col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                            <div className="mission-card">
+                                <div className="icon-box">
+                                    <i className="bi bi-award"></i>
                                 </div>
                                 <h3>Our Values</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Excepteur sint occaecat cupidatat non proident.</p>
@@ -62,33 +62,33 @@ function About() {
                         </div>
                     </div>
 
-                    <div class="row mt-5 pt-3 align-items-center">
-                        <div class="col-lg-6 order-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-                            <div class="achievements">
-                                <span class="subtitle">Why Choose Us</span>
+                    <div className="row mt-5 pt-3 align-items-center">
+                        <div className="col-lg-6 order-lg-2 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                            <div className="achievements">
+                                <span className="subtitle">Why Choose Us</span>
                                 <h2>Transforming Education for a Better Tomorrow</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                                <ul class="achievements-list">
-                                    <li><i class="bi bi-check-circle-fill"></i> Flexible learning options and schedules</li>
-                                    <li><i class="bi bi-check-circle-fill"></i> Industry-experienced instructors</li>
-                                    <li><i class="bi bi-check-circle-fill"></i> Interactive and engaging course content</li>
-                                    <li><i class="bi bi-check-circle-fill"></i> Career guidance and placement support</li>
-                                    <li><i class="bi bi-check-circle-fill"></i> State-of-the-art online learning platform</li>
+                                <ul className="achievements-list">
+                                    <li><i className="bi bi-check-circle-fill"></i> Flexible learning options and schedules</li>
+                                    <li><i className="bi bi-check-circle-fill"></i> Industry-experienced instructors</li>
+                                    <li><i className="bi bi-check-circle-fill"></i> Interactive and engaging course content</li>
+                                    <li><i className="bi bi-check-circle-fill"></i> Career guidance and placement support</li>
+                                    <li><i className="bi bi-check-circle-fill"></i> State-of-the-art online learning platform</li>
                                 </ul>
-                                <a href="/courses" class="btn-explore">Discover More <i class="bi bi-arrow-right"></i></a>
+                                <a href="/courses" className="btn-explore">Discover More <i className="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-6 order-lg-1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-                            <div class="about-gallery">
-                                <div class="row g-3">
-                                    <div class="col-6">
-                                        <img src="https://bootstrapmade.com/content/demo/Learner/assets/img/education/education-1.webp" alt="Campus Life" class="img-fluid rounded-3" />
+                        <div className="col-lg-6 order-lg-1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                            <div className="about-gallery">
+                                <div className="row g-3">
+                                    <div className="col-6">
+                                        <img src="https://bootstrapmade.com/content/demo/Learner/assets/img/education/education-1.webp" alt="Campus Life" className="img-fluid rounded-3" />
                                     </div>
-                                    <div class="col-6">
-                                        <img src="https://bootstrapmade.com/content/demo/Learner/assets/img/education/students-3.webp" alt="Student Achievement" class="img-fluid rounded-3" />
+                                    <div className="col-6">
+                                        <img src="https://bootstrapmade.com/content/demo/Learner/assets/img/education/students-3.webp" alt="Student Achievement" className="img-fluid rounded-3" />
                                     </div>
-                                    <div class="col-12 mt-3">
-                                        <img src="https://bootstrapmade.com/content/demo/Learner/assets/img/education/campus-8.webp" alt="Our Campus" class="img-fluid rounded-3" />
+                                    <div className="col-12 mt-3">
+                                        <img src="https://bootstrapmade.com/content/demo/Learner/assets/img/education/campus-8.webp" alt="Our Campus" className="img-fluid rounded-3" />
                                     </div>
                                 </div>
                             </div>

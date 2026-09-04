@@ -20,29 +20,27 @@ function Contact() {
         });
     };
 
+
+
     const validateForm = () => {
         let newErrors = {};
 
-        // Name validation
         if (formData.name.trim() === "") {
-            newErrors.name = "Name is required";
+            newErrors.name = true;
         }
 
-        // Email validation
         if (formData.email.trim() === "") {
-            newErrors.email = "Email is required";
+            newErrors.email = true;
         } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
-            newErrors.email = "Enter a valid email";
+            newErrors.email = true;
         }
 
-        // Subject validation
         if (formData.subject.trim() === "") {
-            newErrors.subject = "Subject is required";
+            newErrors.subject = true;
         }
 
-        // Message validation
         if (formData.message.trim() === "") {
-            newErrors.message = "Message is required";
+            newErrors.message = true;
         }
 
         setErrors(newErrors);
@@ -152,9 +150,9 @@ function Contact() {
                                                     />
 
                                                     {errors.name && (
-                                                        <small className="text-danger">
-                                                            {errors.name}
-                                                        </small>
+                                                        <div className="text-danger">
+                                                            Name is required
+                                                        </div>
                                                     )}
                                                 </div>
 
@@ -170,55 +168,55 @@ function Contact() {
                                                     />
 
                                                     {errors.email && (
-                                                        <small className="text-danger">
-                                                            {errors.email}
-                                                        </small>
+                                                        <div className="text-danger">
+                                                            Email is required
+                                                        </div>
                                                     )}
                                                 </div>
 
-                                            </div>
+                                                {/* Subject */}
+                                                <div className="form-group mt-3">
+                                                    <input
+                                                        type="text"
+                                                        name="subject"
+                                                        className="form-control"
+                                                        placeholder="Subject"
+                                                        value={formData.subject}
+                                                        onChange={handleChange}
+                                                    />
 
-                                            {/* Subject */}
-                                            <div className="form-group mt-3">
-                                                <input
-                                                    type="text"
-                                                    name="subject"
-                                                    className="form-control"
-                                                    placeholder="Subject"
-                                                    value={formData.subject}
-                                                    onChange={handleChange}
-                                                />
+                                                    {errors.subject && (
+                                                        <div className="text-danger">
+                                                            Subject is required
+                                                        </div>
+                                                    )}
+                                                </div>
 
-                                                {errors.subject && (
-                                                    <small className="text-danger">
-                                                        {errors.subject}
-                                                    </small>
-                                                )}
-                                            </div>
+                                                {/* Message */}
+                                                <div className="form-group mt-3">
+                                                    <textarea
+                                                        className="form-control"
+                                                        name="message"
+                                                        rows="5"
+                                                        placeholder="Message"
+                                                        value={formData.message}
+                                                        onChange={handleChange}
+                                                    />
 
-                                            {/* Message */}
-                                            <div className="form-group mt-3">
-                                                <textarea
-                                                    className="form-control"
-                                                    name="message"
-                                                    rows="5"
-                                                    placeholder="Message"
-                                                    value={formData.message}
-                                                    onChange={handleChange}
-                                                ></textarea>
+                                                    {errors.message && (
+                                                        <div className="text-danger">
+                                                            Message is required
+                                                        </div>
+                                                    )}
+                                                </div>
 
-                                                {errors.message && (
-                                                    <small className="text-danger">
-                                                        {errors.message}
-                                                    </small>
-                                                )}
-                                            </div>
 
-                                            {/* Submit */}
-                                            <div className="form-submit mt-3">
-                                                <button type="submit">
-                                                    Send Message
-                                                </button>
+                                                {/* Submit */}
+                                                <div className="form-submit mt-3">
+                                                    <button type="submit">
+                                                        Send Message
+                                                    </button>
+                                                </div>
                                             </div>
 
                                         </form>

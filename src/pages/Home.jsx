@@ -18,16 +18,16 @@ function Home() {
     const [showModal, setShowModal] = useState(false);
 
     useEffect(() => {
-        const offerShown = localStorage.getItem("offerShown");
+        // const offerShown = localStorage.getItem("offerShown");
 
-        if (!offerShown) {
+        // if (!offerShown) {
             const timer = setTimeout(() => {
                 setShowModal(true);
-                localStorage.setItem("offerShown", "true");
+                // localStorage.setItem("offerShown", "true");
             }, 1000);
 
             return () => clearTimeout(timer);
-        }
+        // }
     }, []);
 
 
@@ -1180,6 +1180,9 @@ function Home() {
             {showModal && (
                 <div className="offer-modal">
                     <div className="modal-content">
+                        <div className='text-end' onClick={() => setShowModal(false)}>
+                            <i class="bi bi-x-lg"></i>
+                        </div>
                         <h3>🎉 Special Offer!</h3>
                         <p>Welcome! You have an offer.</p>
 

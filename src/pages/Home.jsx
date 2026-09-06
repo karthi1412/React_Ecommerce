@@ -18,16 +18,16 @@ function Home() {
     const [showModal, setShowModal] = useState(false);
 
     useEffect(() => {
-        // const offerShown = localStorage.getItem("offerShown");
+        const offerShown = localStorage.getItem("offerShown");
 
-        // if (!offerShown) {
+        if (!offerShown) {
             const timer = setTimeout(() => {
                 setShowModal(true);
-                // localStorage.setItem("offerShown", "true");
+                localStorage.setItem("offerShown", "true");
             }, 1000);
 
             return () => clearTimeout(timer);
-        // }
+        }
     }, []);
 
 

@@ -30,10 +30,6 @@ function Home() {
         }
     }, []);
 
-
-    
-
-
     return (
 
         <div >

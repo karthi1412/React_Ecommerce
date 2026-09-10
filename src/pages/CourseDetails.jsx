@@ -6,6 +6,8 @@ function CourseDetails() {
       <div>CourseDetails</div>
       <div>CourseDetails</div>
       <div>CourseDetails</div>
+
+      
     </div>
   )
 }

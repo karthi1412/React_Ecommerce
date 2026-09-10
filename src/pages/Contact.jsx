@@ -20,8 +20,6 @@ function Contact() {
         });
     };
 
-
-
     const validateForm = () => {
         let newErrors = {};
 
@@ -73,9 +71,6 @@ function Contact() {
             setErrors({});
         }
     };
-
-
-    
 
     return (
         <div>

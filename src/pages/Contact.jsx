@@ -10,7 +10,6 @@ function Contact() {
     });
 
     const [errors, setErrors] = useState({});
-
     const handleChange = (e) => {
         const { name, value } = e.target;
 

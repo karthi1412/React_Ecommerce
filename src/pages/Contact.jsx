@@ -71,6 +71,8 @@ function Contact() {
         }
     };
 
+
+
     return (
         <div>
             <section id="contact" className="contact section">
@@ -225,6 +227,8 @@ function Contact() {
                 </div>
             </section>
         </div>
+
+        
     )
 }
 

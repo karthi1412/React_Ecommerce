@@ -32,6 +32,7 @@ function Home() {
 
     return (
         <div >
+
             <section className='section-one'>
                 <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
@@ -1172,7 +1173,6 @@ function Home() {
                     </div>
                 </div>
             </div>
-
             {/* popup */}
             {showModal && (
                 <div className="offer-modal">
@@ -1191,6 +1191,7 @@ function Home() {
                     </div>
                 </div>
             )}
+            
         </div>
     )
 }

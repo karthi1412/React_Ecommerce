@@ -86,6 +86,7 @@ function Blog() {
                 </div>
 
             </section>
+            
             <section id="blog-posts" className="blog-posts section">
 
                 <div className="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">

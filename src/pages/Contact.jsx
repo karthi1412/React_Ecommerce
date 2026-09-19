@@ -71,8 +71,6 @@ function Contact() {
         }
     };
 
-
-
     return (
         <div>
             <section id="contact" className="contact section">

@@ -16,7 +16,6 @@ import teacher9 from "../assets/images/teacher9.webp";
 function Home() {
 
     const [showModal, setShowModal] = useState(false);
-
     useEffect(() => {
         const offerShown = localStorage.getItem("offerShown");
 
@@ -31,6 +30,7 @@ function Home() {
     }, []);
 
     return (
+
         <div >
             <section className='section-one'>
                 <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
@@ -1191,6 +1191,7 @@ function Home() {
                 </div>
             )}
         </div>
+        
     )
 }
 

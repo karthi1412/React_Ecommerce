@@ -3,7 +3,6 @@ import React from 'react'
 function About() {
     return (
         <div>
-
             <section id="about" className="about section">
                 <div className="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
                     <div className="row align-items-center">
@@ -97,9 +96,7 @@ function About() {
                     </div>
 
                 </div>
-
             </section>
-            
         </div>
     )
 }

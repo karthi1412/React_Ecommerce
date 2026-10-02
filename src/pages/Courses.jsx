@@ -4,7 +4,6 @@ import personf3 from "../assets/images/personf3.webp";
 function Courses() {
     return (
         <div>
-
             <section id="courses-2" class="courses-2 section">
 
                 <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
@@ -417,7 +416,6 @@ function Courses() {
                 </div>
 
             </section>
-            
         </div>
     )
 }

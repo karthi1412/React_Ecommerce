@@ -30,7 +30,6 @@ function Home() {
     }, []);
 
     return (
-
         <div >
             <section className='section-one'>
                 <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
@@ -1190,8 +1189,7 @@ function Home() {
                     </div>
                 </div>
             )}
-        </div>
-        
+        </div> 
     )
 }
 

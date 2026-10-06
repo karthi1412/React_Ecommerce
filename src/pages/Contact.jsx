@@ -74,7 +74,6 @@ function Contact() {
     return (
         <div>
             <section id="contact" className="contact section">
-
                 <div className="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
                     <div className="contact-main-wrapper row">
                         {/* <div className="map-wrapper">
@@ -222,8 +221,6 @@ function Contact() {
                         </div>
                     </div>
                 </div>
-
-                
             </section>
         </div>
     )
